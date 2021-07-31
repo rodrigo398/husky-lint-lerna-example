@@ -30,7 +30,7 @@
     ]
   },
   "lint-staged": {
-    "src/**/*.{ts, tsx}": [
+    "*.{ts,js,tsx}": [
       "prettier --config .prettierrc --write"
     ]
   },
