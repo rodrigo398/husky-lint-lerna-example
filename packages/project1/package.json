@@ -17,10 +17,11 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "craco start",
+    "build": "craco build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "perf:build": "npx source-map-explorer build/static/js/*.js --no-border-checks",
     "precommit": "yarn lint-staged"
   },
   "eslintConfig": {
@@ -42,6 +43,8 @@
     ]
   },
   "devDependencies": {
+    "@craco/craco": "^6.2.0",
+    "craco-esbuild": "^0.3.3",
     "lint-staged": "^11.1.1",
     "prettier": "^2.3.2"
   },
