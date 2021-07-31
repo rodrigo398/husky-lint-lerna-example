@@ -1,0 +1,15 @@
+{
+  "name": "husky-lint-lerna-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rodrigo398/husky-lint-lerna-example",
+  "author": "Rodrigo Avila <rodrigo398@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^7.0.1",
+    "lerna": "^4.0.0"
+  }
+}
