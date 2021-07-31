@@ -28,6 +28,11 @@
       "react-app/jest"
     ]
   },
+  "lint-staged": {
+    "src/**/*.{ts, tsx}": [
+      "prettier --config .prettierrc --write"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -39,5 +44,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "lint-staged": "^11.1.1",
+    "prettier": "^2.3.2"
   }
 }
