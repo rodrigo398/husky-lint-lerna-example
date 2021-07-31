@@ -1,0 +1,1 @@
+# husky-lint-lerna-example
