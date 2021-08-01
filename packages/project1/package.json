@@ -19,6 +19,7 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
+    "build:ci": "TRANSPILE_ONLY=true craco build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "perf:build": "npx source-map-explorer build/static/js/*.js --no-border-checks",
